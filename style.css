@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&family=Unbounded:wght@500&display=swap');
+
+:root{
+    --fonte-p1: 'Sriracha', cursive;
+    --fonte-header:'Unbounded', cursive;
+    --fonte-padrao: Verdana, Geneva, Tahoma, sans-serif;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html, body {
+    background-color: antiquewhite;
+    min-height: 100vh;
+}
+header{
+    font-family: var(--fonte-padrao);
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > h1 {
+    font-family: var(--fonte-header);
+padding-top: 50px;
+font-variant: small-caps;
+}
+header p {
+    padding-bottom: 50px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+}
+section{
+    color: black;
+    font-family:var(--fonte-p1);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+section > p {
+    padding-bottom: 2em;
+}
+section#img01 {
+background-image: url(imagens/background001.jpg);
+background-position: right center;
+background-size: cover;
+}
+section#img02{
+background-image: url(imagens/background002.jpg);
+background-position: right center;
+background-size: cover;
+}
+
+.imagem{
+    background-color: rgb(51, 50, 50);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.274);
+    background-attachment: fixed;
+}
+.imagem > p {
+    padding: 5px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.329);
+    background-color: rgba(0, 0, 0, 0.425);
+    width: 200px;
+}
+footer{
+    font-family: var(--fonte-padrao);
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 5px;
+}
